@@ -3,7 +3,6 @@ import TransactionTable from "./components/TransactionTable";
 import { TransactionTypes } from "./types";
 import { fetchTransactions } from "./api/ApiRequest";
 import { formatTransactionTime } from "./utils/Date";
-import BigNumber from "bignumber.js";
 
 const App: React.FC = () => {
   const [transactions, setTransactions] = useState<TransactionTypes[]>([]);
