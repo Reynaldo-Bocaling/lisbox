@@ -1,0 +1,16 @@
+@import"https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@50;300;400;900&display=swap";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-stroke-sm {
+    font-family: Londrina Solid;
+    color: #fff;
+    text-shadow: -5px -5px 0 #0e79ff, 5px -5px 0 #0e79ff, -5px 5px 0 #0e79ff, 5px 5px 0 #0e79ff, -5px 0 0 #0e79ff, 5px 0 0 #0e79ff, 0 -5px 0 #0e79ff, 0 5px 0 #0e79ff
+}
+
+.boxContainer {
+    background-image: url("/img/line-pattern.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
